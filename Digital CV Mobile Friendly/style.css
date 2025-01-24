@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+section, head, meta, link, title, body, header, img, html, h1, h2, h3, p, a, main, ul, li, table, thead, tbody, tr, th, td, ol, footer, form, label, input, br, b, select, option, textarea {
+    box-sizing: border-box;
+}
+/* Added box sizing to body */
+
+body {
+    background-color: rgb(24, 24, 24);
+    margin: 7px;
+    border: 2px solid #33ff33;
+    padding: 2rem;
+}
+/* Body */
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Name Title */
+
+#b img {
+    border: 2px solid #33ff33;
+    border-radius: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 15rem;
+    height: 15rem;
+}
+/* Profile Picture */
+
+header section {
+    display: flex;
+    justify-content: space-between;
+    height: 20rem;
+}
+/* First Section */
+
+section {
+    margin-top: 0;
+    margin-bottom: 50px;
+    border-top: 2px solid #33ff33;
+}
+
+#b {
+    border-top: none;
+    display: flex;
+}
+
+#c {
+    border-top: none;
+}
+/* All sections */
+
+a {
+    text-decoration: none;
+    color: #33ff33;
+}
+
+a:hover {
+    color: blue;
+}
+
+#a {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    flex-direction: column;
+}
+/* Header */
+
+h2 {
+    text-align: center;
+    padding-bottom: 15px;
+}
+/* Subheadings */
+
+header, section, h2, form, label, input, select {
+    font-family: 'Source Code Pro', monospace;
+    color: #33ff33;
+}
+
+p, li, h3, td {
+    font-size: small;
+}
+
+table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+thead {
+    display: flex;
+    flex-direction: row;
+}
+
+#tablehead {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 60rem;
+}
+
+header {
+    text-align: center;
+    text-transform: uppercase;
+    box-sizing: border-box;
+}
+
+@media (max-width: 480px) {
+    thead {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    div .infocontainer {
+        width: 95%;
+    }
+
+    form #e {
+        width: 95%;
+    }
+
+    #b #a {
+        position: relative;
+        right: 50px;
+        width: 50%;
+    }
+
+    img {
+        position: relative;
+        right: 25px;
+    }
+}
+
+/*Added @media for responsive design*/
+
+
+
+input[type="reset"], input[type="submit"] {
+    font-family: 'Source-Code-Pro', monospace;
+    color: #33ff33;
+    background-color: black;
+    border: 2px solid #33ff33;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: color 0.3s ease-in;
+}
+
+input[type="reset"]:hover, input[type="submit"]:hover {
+    background-color: #33ff33;
+    color: black;
+    transition: color 0.3s ease-in;
+}
+
+/*Reset and Submit buttons.*/
+
+input[type="text"], input[type="email"], select {
+    font-family: 'Source Code Pro', monospace;
+    color: #33ff33;
+    background-color: black;
+    border: 1px solid #33ff33;
+    padding: 5px 10px;
+    margin: 5px;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+input[type="text"]::placeholder, input[type="email"]::placeholder {
+    color: #33ff33;
+}
+
+form {
+    border-top: 2px solid #33ff33;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+div form {
+    display: flex;
+    align-items: center;
+}
+
+form label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputcontainer {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.infocontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    width: 30rem;
+}
+
+.infoboxlabel {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#e {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 30rem;
+}
+
+textarea {
+    height: 5rem;
+    width: 20rem;
+}
+
+#methodlabel {
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+    
+
+
+
+
+
